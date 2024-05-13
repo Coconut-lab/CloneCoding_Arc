@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    
+    
+}
+
+.header {
+    height: 145px;
+    text-align: center;
+    background-color: #3139FB;
+}
+
+.download {    
+    text-align: right;
+}
+
+.header_gnb ul {
+    margin-top: 40px;
+}
+
+.header_gnb ul li {
+    display: inline-block;
+}
+
+.header_gnb ul li a {
+    display: block;
+    font: bold 14px 'arial';
+    color: white;
+    margin: 0px 16px;
+    letter-spacing: 1px;
+}
+
+.big_name {
+    background-color: #3139FB;
+    text-align: center;
+    color: white;
+}
