@@ -9,13 +9,20 @@
 }
 
 .header {
-    height: 145px;
+    display: flex;
+    border-bottom: 1px solid black;
+    height: 96px;
     text-align: center;
-    background-color: #3139FB;
+    background-color: #3139FBFF;
 }
 
+.nav-list {
+    align-items: center;
+}
+
+
 .download {    
-    text-align: right;
+    align-items: flex-end;
 }
 
 .header_gnb ul {
@@ -37,5 +44,14 @@
 .big_name {
     background-color: #3139FB;
     text-align: center;
+}
+
+.big_name h1 {
+    
+    color: white;
+    
+}
+
+.big_name p {
     color: white;
 }
