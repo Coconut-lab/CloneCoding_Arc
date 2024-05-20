@@ -9,8 +9,16 @@
 }
 
 .header {
+    background-size: ;
+    background-repeat: ;
+    background-attachment: ;
+    background-origin: ;
+    background-clip: ;
+    background-color: ;
+    background-image: url(/noise-light.png);
+    color: rgb(255,250,221);
     display: flex;
-    border-bottom: 1px solid black;
+
     height: 96px;
     text-align: center;
     background-color: #3139FBFF;
@@ -42,7 +50,15 @@
 }
 
 .big_name {
-    background-color: #3139FB;
+    background-size: ;
+    background-repeat: ;
+    background-attachment: ;
+    background-origin: ;
+    background-clip: ;
+    background-color: ;
+    background-image: url(/noise-light.png);
+    color: rgb(255,250,221);
+    background-color: #3139FBFF;
     text-align: center;
 }
 
