@@ -4,44 +4,31 @@
     list-style: none;
     text-decoration: none;
     color: black;
-    
-    
 }
 
 .header {
-    background-size: ;
-    background-repeat: ;
-    background-attachment: ;
-    background-origin: ;
-    background-clip: ;
-    background-color: ;
-    background-image: url(/noise-light.png);
-    color: rgb(255,250,221);
+    color: rgb(255, 250, 221);
     display: flex;
-
     height: 96px;
     text-align: center;
     background-color: #3139FBFF;
 }
 
-.nav-list {
+.div-header {
+    display: flex;
     align-items: center;
 }
 
 
-.download {    
-    align-items: flex-end;
-}
-
-.header_gnb ul {
+.header-gnb {
     margin-top: 40px;
 }
 
-.header_gnb ul li {
-    display: inline-block;
+.header-gnb div {
+    display: flex;
 }
 
-.header_gnb ul li a {
+.header-gnb div a {
     display: block;
     font: bold 14px 'arial';
     color: white;
@@ -49,25 +36,52 @@
     letter-spacing: 1px;
 }
 
+.div-left {
+    float: left;
+}
+
+.download {
+    float: right;
+    padding-top: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 4px;
+    background-color: white;
+    color: #3139FBFF;
+    border-radius: 10px;
+    font: 12px 'arial';
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1)
+}
+
+
 .big_name {
-    background-size: ;
-    background-repeat: ;
-    background-attachment: ;
-    background-origin: ;
-    background-clip: ;
-    background-color: ;
-    background-image: url(/noise-light.png);
-    color: rgb(255,250,221);
+    color: rgb(255, 250, 221);
     background-color: #3139FBFF;
     text-align: center;
 }
 
 .big_name h1 {
-    
     color: white;
-    
 }
 
 .big_name p {
     color: white;
+}
+
+.download-button ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+    align-content: center;
+}
+
+.download-button div {
+    padding: 0;
+    margin: 0;
+    float: left;
+    list-style: none;
+    align-items: center;
 }
